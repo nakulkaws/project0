@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Dhaba 99 - Menu</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="topnav.css">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="sidebar.css">
+
+        <!-- BootStrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- BootStrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a class="active" href="menu.html">Menu</a>
+                <a href="index.html">Home</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="login.html">Login</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+            <!-- Right Sidebar for Çart -->
+            <!--
+                <div class="sidenav col-md-3" style="right:0;width: 20%; /* Set the width of the sidebar */">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="text-muted">Your cart</span>
+                  <span class="badge badge-secondary badge-pill">3</span>
+                </h4>
+                <ul class="list-group mb-3">
+                  <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Malai Seekh</h6>
+                      <small class="text-muted">Qty - 1</small>
+                    </div>
+                    <span class="text-muted">Rs.300</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Bhatti ka Murg</h6>
+                      <small class="text-muted">Qty - 1</small>
+                    </div>
+                    <span class="text-muted">Rs.400</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Rajma Galauti</h6>
+                      <small class="text-muted">Qty - 1</small>
+                    </div>
+                    <span class="text-muted">Rs.300</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                      <h6 class="my-0">Promo code</h6>
+                      <small>EXAMPLECODE</small>
+                    </div>
+                    <span class="text-success">-Rs.200</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (Rs)</span>
+                    <strong>Rs.800</strong>
+                  </li>
+                </ul>
+
+               <form class="card p-2">
+                 <div class="input-group">
+                   <input type="text" class="form-control" placeholder="Promo code">
+                   <div class="input-group-append">
+                     <button type="submit" class="btn btn-secondary">Redeem</button>
+                   </div>
+                 </div>
+               </form>
+            </div>
+
+-->
+
+            <!-- Left Sidebar for Categories -->
+            <!--
+            <div class="sidenav col-md-3" style="left:0;width: 15%; /* Set the width of the sidebar */">
+              <a href="#VegStarter">Veg Starter</a>
+              <a href="#NonVegStarter">Non Veg Starter</a>
+              <a href="#VegMainCourse">Veg Main Course</a>
+              <a href="#NonVegMainCourse">Non Veg Main Course</a>
+              <a href="#Breads">Breads</a>
+              <a href="#RicenBiryani">Rice & Biryani</a>
+
+          </div>-->
+          <div class="sidebar">
+              <img class="rounded img-fluid" src="images/Dhaba_Logo_Final.png"  align="center">
+
+              <a href="#VegStarter">Veg Starter</a>
+              <a href="#NonVegStarter">Non Veg Starter</a>
+              <a class="active" href="#VegMainCourse">Veg Main Course</a>
+              <a href="#NonVegMainCourse">Non Veg Main Course</a>
+              <a href="#Breads">Breads</a>
+              <a href="#RicenBiryani">Rice & Biryani</a>
+
+            </div>
+        </header>
+
+        <div class="main py-5">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="card mb-3 shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="15%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Placeholder</title>
+                            <image href="Thumb_Images/Rajma_Galauti_Thumb.jpg" width="100%" /></svg>
+                        <div class="card-body">
+                          <div class="card-body text-center bg-success text-white">
+                              <p class="card-text">Rajma Galauti Kebab</p>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Add</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Remove</button>
+                            </div>
+                            <small class="text-muted">Rs.300</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card mb-3 shadow-sm">
+                          <svg class="bd-placeholder-img card-img-top" width="100%" height="15%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                              <title>Malai Seekh Kebab</title>
+                              <image href="Thumb_Images/Malai_Seekh_Thumb.jpg" width="100%" />
+                          </svg>
+                          <div class="card-body">
+                              <div class="card-body text-center bg-success text-white">
+                                  <p class="card-text">Malai Seekh Kebab</p>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">Add</button>
+                                  <button type="button" class="btn btn-sm btn-outline-secondary">Remove</button>
+                                </div>
+                                <small class="text-muted">Rs.300</small>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card mb-3 shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="15%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Achari Paneer Tikka</title>
+                            <image href="Thumb_Images/Achari_Paneer_Thumb.jpg" width="100%" />
+                        </svg>
+                        <div class="card-body">
+                            <div class="card-body text-center bg-success text-white">
+                                <p class="card-text">Achari Paneer Tikka</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Add</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Remove</button>
+                              </div>
+                              <small class="text-muted">Rs.300</small>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="card mb-3 shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="15%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Bhatti ka Murg</title>
+                            <image href="Thumb_Images/Bhatti_Murg_Thumb.jpg" width="100%" />
+                        </svg>
+                        <div class="card-body">
+                            <div class="card-body text-center bg-danger text-white">
+                                <p class="card-text">Bhatti ka Murg</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Add</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Remove</button>
+                              </div>
+                              <small class="text-muted">Rs.400</small>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card mb-3 shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="15%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Murg Zafrani Tikka</title>
+                            <image href="Thumb_Images/Murg_Zafrani_Thumb.jpg" width="100%" />
+                        </svg>
+                        <div class="card-body">
+                            <div class="card-body text-center bg-danger text-white">
+                                <p class="card-text">Murg Zafrani Tikka</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Add</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Remove</button>
+                              </div>
+                              <small class="text-muted">Rs.400</small>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+            </div>
+              </div>
+
+        </div>
+        <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+</body>
+</html>
