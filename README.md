@@ -14,6 +14,3 @@ Before placing an order they need to signup and login to the website.
 3. signup.html - The user needs to signup with his details - name, phone number, email id and password, to create his profile on this website.        
 
 4. login.html - After the user has signed up, it will be possible for the user to login to complete the order process.
-
-
- and at least one use of SCSS inheritance.

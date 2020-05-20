@@ -1,41 +1,46 @@
 /* Style page content */
 .main {
-  margin-left: 15%;
-  /* Same as the width of the sidebar */
-  padding: 0px 10px; }
+  margin-left: 15%; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
 
 .form-signin {
   width: 100%;
   max-width: 330px;
   padding: 15px;
-  margin: auto; }
-
+  margin: auto;
+}
 .form-signin .checkbox {
-  font-weight: 400; }
-
+  font-weight: 400;
+}
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
   height: auto;
   padding: 10px;
-  font-size: 16px; }
-
+  font-size: 16px;
+}
 .form-signin .form-control:focus {
-  z-index: 2; }
+  z-index: 2;
+}
 
-.form-signin input[type="email"], .form-signin input[type="text"], .form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0; }
-
+%textbox{
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
 .form-signin input[type="email"] {
-  background-color: #ddd; }
-
+  @extend %textbox;
+  background-color:#ddd;
+}
 .form-signin input[type="text"] {
-  background-color: white; }
-
+    @extend %textbox;
+    background-color:white;
+}
 .form-signin input[type="password"] {
-  background-color: white; }
+    @extend %textbox;
+    background-color:white;
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -43,10 +48,11 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+}
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
-    font-size: 3.5rem; } }
-
-/*# sourceMappingURL=form.css.map */
+    font-size: 3.5rem;
+  }
+}
